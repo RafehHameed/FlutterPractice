@@ -1,8 +1,11 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   final days = 30;
   final name = "Rafeh";
+
   const HomePage({Key? key}) : super(key: key);
 
   @override
